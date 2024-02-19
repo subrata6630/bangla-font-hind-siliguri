@@ -2,7 +2,7 @@
 /*
 Plugin Name: Bangla font Hind Siliguri
 Plugin URI: http://www.sbtechbd.xyz
-Description: Bangla font Hind Siliguri is an awesome WordPress plugin.Enhance the aesthetic appeal of your website's Bangla text with the "Bangla Font Hind Siliguri" plugin. Experience a visually pleasing display of Bangla content, utilizing fonts commonly found in textbooks, ensuring a consistent and beautiful appearance across all devices and browsers.
+Description: Bangla font Hind Siliguri is an awesome WordPress plugin. Enhance the aesthetic appeal of your website's Bangla text with the "Bangla Font Hind Siliguri" plugin. Experience a visually pleasing display of Bangla content, utilizing fonts commonly found in textbooks, ensuring a consistent and beautiful appearance across all devices and browsers.
 Author: Subrata Debnath
 Version: 1.0.1
 Author URI: http://subrata6630.github.io
@@ -42,8 +42,24 @@ class BanglaFontEmbedder {
         </style>
         <?php
     }
+
+    // Enable automatic updates for this plugin
+    public function autoUpdatesPlugin() {
+        add_filter( 'auto_update_plugin', array( $this, 'enable_auto_updates' ) );
+    }
+
+    public function enable_auto_updates() {
+        return true;
+    }
+
+
 }
 
 // Instantiate the class to initiate the actions
 $banglaFontEmbedder = new BanglaFontEmbedder();
+
+
+
+// Enable automatic updates for this plugin
+add_filter( 'auto_update_plugin', '__return_true' );
 
