@@ -60,6 +60,5 @@ $banglaFontEmbedder = new BanglaFontEmbedder();
 
 
 
-// Enable automatic updates for this plugin
-add_filter( 'auto_update_plugin', '__return_true' );
+
 
