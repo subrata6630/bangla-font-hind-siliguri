@@ -43,22 +43,10 @@ class BanglaFontEmbedder {
         <?php
     }
 
-    // Enable automatic updates for this plugin
-    public function autoUpdatesPlugin() {
-        add_filter( 'auto_update_plugin', array( $this, 'enable_auto_updates' ) );
-    }
-
-    public function enable_auto_updates() {
-        return true;
-    }
+  
 
 
 }
 
 // Instantiate the class to initiate the actions
 $banglaFontEmbedder = new BanglaFontEmbedder();
-
-
-
-
-
