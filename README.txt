@@ -8,7 +8,7 @@ Requires PHP: 5.6
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://subrata6630.github.io
-Stable tag: trunk
+Stable tag: 1.0.1
 
 A simple and nice plugin to your website's Bangla text with the "Bangla Font Hind Siliguri"
 
