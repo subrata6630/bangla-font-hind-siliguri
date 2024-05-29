@@ -4,7 +4,7 @@ Contributors: Subrata Debnath
 Tags: bangla, Bangla Font, Bengali, Hind Siliguri, Bangladesh Newspaper font
 Requires at least: 5.8
 Tested up to: 6.5
-Stable tag: 5.3.2
+Stable tag: 1.0.2
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://subrata6630.github.io
