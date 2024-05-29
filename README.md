@@ -1,46 +1,41 @@
-=== Bangla Font Hind Siliguri ===
+# Bangla Font Hind Siliguri
 
-Contributors: Subrata Debnath
-Tags: bangla, Bangla Font, Bengali, Hind Siliguri, Bangladesh Newspaper font
-Requires at least: 5.8
-Tested up to: 6.5
-Stable tag: 5.3.2
-License: GPLv2 
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate link: https://subrata6630.github.io
+A simple and nice plugin for your website's Bangla text with the "Bangla Font Hind Siliguri".
 
+## Table of Contents
 
-A simple and nice plugin for your website's Bangla text with the "Bangla Font Hind Siliguri"
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Frequently Asked Questions](#frequently-asked-questions)
+4. [Changelog](#changelog)
+5. [Contributors](#contributors)
+6. [License](#license)
+7. [Donate](#donate)
 
-== Description ==
+## Description
 
 Enhance the aesthetic appeal of your website's Bangla text with the "Bangla Font Hind Siliguri" plugin. Experience a visually pleasing display of Bangla content, utilizing fonts commonly found in textbooks, ensuring a consistent and beautiful appearance across all devices and browsers.
 
+## Installation
 
-== Installation ==
+1. **Install from the WordPress Plugin Repository:**
+   - Navigate to the WordPress plugin repository.
+   - Search for "Bangla Font Hind Siliguri".
+   - Click "Install Now".
 
+2. **Activate the Plugin:**
+   - Go to the WordPress admin dashboard.
+   - Navigate to `Plugins` > `Installed Plugins`.
+   - Find "Bangla Font Hind Siliguri" in the list and click "Activate".
 
-1. Install it from the WordPress plugin repository
-2. Activate the plugin through the 'Plugins' menu in WordPress
+## Frequently Asked Questions
 
+### How does it work?
 
-== Frequently Asked Questions ==
+- Simply install and activate the plugin, and it will attempt to embed the Bangla web font automatically.
+- If it doesn’t work, you can manually edit your theme’s CSS and change the `font-family` like this:
 
-= How does it work? =
-
-* Simply install and activate the plugin it will try to embed bangla web font automatically.
-* If it doesen’t work then manually edit your theme’s css and change font-family like this:
-
-body {
-font-family: ‘Hind Siliguri’, Arial, sans-serif !important;
-}
-
-
-
-= 1.0.0 =
-* Initial Release 
-
-
-
-
-
+  ```css
+  body {
+      font-family: 'Hind Siliguri', Arial, sans-serif !important;
+  }
