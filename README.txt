@@ -7,7 +7,7 @@ Stable tag: 3.16.3
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://subrata6630.github.io
-Stable tag: 1.0.1
+
 
 A simple and nice plugin for your website's Bangla text with the "Bangla Font Hind Siliguri"
 
