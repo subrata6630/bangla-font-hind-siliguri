@@ -29,8 +29,8 @@ Enhance the aesthetic appeal of your website's Bangla text with the "Bangla Font
 
 = How does it work? =
 
-* Simply install and activate the plugin it will try to embed bangla web font automatically.
-* If it doesen’t work then manually edit your theme’s css and change font-family like this:
+* install and activate the plugin it will try to embed Bangla web font automatically.
+* If it doesn’t work then manually edit your theme’s CSS and change font family like this:
 
 body {
 font-family: ‘Hind Siliguri’, Arial, sans-serif !important;
