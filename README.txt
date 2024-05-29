@@ -1,16 +1,15 @@
 === Bangla Font Hind Siliguri ===
 
 Contributors: Subrata Debnath
-Tags: bangla, Bangla Font, Bengali, Hind Siliguri,Bangladesh Newspaper font
-Requires at least: 3.0.1
-Tested up to: 3.4
-Requires PHP: 5.6
+Tags: bangla, Bangla Font, Bengali, Hind Siliguri, Bangladesh Newspaper font
+Tested up to: 6.5
+Stable tag: 3.16.3
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://subrata6630.github.io
 Stable tag: 1.0.1
 
-A simple and nice plugin to your website's Bangla text with the "Bangla Font Hind Siliguri"
+A simple and nice plugin for your website's Bangla text with the "Bangla Font Hind Siliguri"
 
 == Description ==
 
