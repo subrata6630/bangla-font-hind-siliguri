@@ -37,8 +37,6 @@ font-family: ‘Hind Siliguri’, Arial, sans-serif !important;
 
 
 
-== Changelog ==
-
 = 1.0.0 =
 * Initial Release 
 
