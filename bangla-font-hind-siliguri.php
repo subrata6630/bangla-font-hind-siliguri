@@ -7,8 +7,8 @@ Author: Subrata Debnath
 Version: 1.0.2
 Author URI: http://subrata6630.github.io
 Text Domain: bangla-font-hind-siliguri
-License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License: GPLv2 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 */
 
 // Exit if accessed directly
