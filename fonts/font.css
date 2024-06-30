@@ -4,3 +4,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
+body, article, h1, h2, h3, h4, h5, h6, textarea, input, select, .topbar, .main-menu, .breadcrumb, .copyrights-area, form span.required {
+  font-family: 'Hind Siliguri', Arial, sans-serif !important;
+}
