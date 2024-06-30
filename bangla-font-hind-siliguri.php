@@ -12,56 +12,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Exit if accessed directly
-
 if (!defined('ABSPATH')) {
     exit;
 }
 
-class BanglaFontHindsiliguri
+class Bangla_Font_Hind_Siliguri
 {
-
     public function __construct()
     {
-        add_action('wp_head', array($this, 'embedBanglaFont'));
+        // Only enqueue styles on the frontend
+        if (!is_admin() && !wp_doing_ajax()) {
+            add_action('wp_enqueue_scripts', array($this, 'enqueue_Bangla_Font_Stylesheet'));
+        }
     }
 
-    public function embedBanglaFont()
+    public function enqueue_Bangla_Font_Stylesheet()
     {
-        $this->enqueueFontStylesheet();
-        $this->addFontStyles();
-    }
-
-    private function enqueueFontStylesheet()
-    {
-        wp_enqueue_style('bangla-font-styles', plugins_url('fonts/font.css', __FILE__), array(), '1.0.0');
-    }
-
-    private function addFontStyles()
-    {
-?>
-        <style>
-            body,
-            article,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            textarea,
-            input,
-            select,
-            .topbar,
-            .main-menu,
-            .breadcrumb,
-            .copyrights-area,
-            form span.required {
-                font-family: 'Hind Siliguri', Arial, sans-serif !important;
-            }
-        </style>
-<?php
+        wp_register_style('bangla-font-styles', plugins_url('fonts/font.css', __FILE__), array(), '1.0.0');
+        wp_enqueue_style('bangla-font-styles');
     }
 }
 
 // Instantiate the class to initiate the actions
-$BanglaFontHindsiliguri = new BanglaFontHindsiliguri();
+$Bangla_Font_Hind_Siliguri = new Bangla_Font_Hind_Siliguri();
