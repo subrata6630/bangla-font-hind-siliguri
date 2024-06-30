@@ -20,9 +20,9 @@ Enhance the aesthetic appeal of your website's Bangla text with the "Bangla Font
 
 == Installation ==
 
-
-1. Install it from the WordPress plugin repository
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload the plugin files to the `/wp-content/plugins/bangla-font-hind-siliguri` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Enjoy the enhanced typography on your website!
 
 
 == Frequently Asked Questions ==
@@ -37,13 +37,17 @@ font-family: ‘Hind Siliguri’, Arial, sans-serif !important;
 }
 
 
-
 == Changelog ==
 
-= 1.0.0 =
-* Initial Release 
+= 1.0.2 =
+* Initial release
 
+== Upgrade Notice ==
 
+= 1.0.2 =
+Initial release.
 
+== Credits ==
 
+Developed by Subrata Debnath.
 
